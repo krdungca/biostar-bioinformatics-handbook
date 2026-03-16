@@ -1,0 +1,6 @@
+```bash
+
+cat test.fa
+
+
+```
