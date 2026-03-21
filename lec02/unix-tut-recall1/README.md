@@ -13,7 +13,13 @@ wget http://data.biostarhandbook.com/data/SGD_features.tab
 7. Create a file containing the types column only.
 8. How to count the unique features, and then sort from highest to lowest?
 
+
+
+
 ***
+
+
+
 
 0. Get the data from SGD.
 ```bash
