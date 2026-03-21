@@ -2,7 +2,7 @@ RECALL Questions:
 0. Get the data from SGD.
 ```bash
 wget http://data.biostarhandbook.com/data/SGD_features.tab
-```bash
+```
 
 1. How to count the lines, words, and characters?
 2. How to find information on gene YAL060W?
@@ -18,6 +18,6 @@ wget http://data.biostarhandbook.com/data/SGD_features.tab
 0. Get the data from SGD.
 ```bash
 wget http://data.biostarhandbook.com/data/SGD_features.tab
-```bash
+```
 
 1.  
