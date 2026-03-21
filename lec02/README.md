@@ -12,7 +12,7 @@ wget http://data.biostarhandbook.com/data/SGD_features.tab
 6. How many lines of the protein-coding genes are non-Dubious?
 7. Create a file containing the types column only.
 8. How to count the unique features, and then sort from highest to lowest?
-9. Alternative command to execute #9 (better formatting)?
+9. Alternative command to execute #8 (better formatting)?
 ***
 
 0. Get the data from SGD.
@@ -96,7 +96,7 @@ $ cat types.tab | sort | uniq -c | sort -rn | head
      91 transposable_element_gene
      77 snoRNA_gene
 ```
-9. Alternative command to execute #9(better formatting)?
+9. Alternative command to execute #8(better formatting)?
 ```bash
 $ cat types.tab | sort-uniq-count-rank | head
 7074	CDS
