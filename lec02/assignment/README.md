@@ -141,8 +141,37 @@ https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_931346935.2/
 <br>
 
 2. How many sequence regions (chromosomes) does the file contain? Does that match with the expectation for this organism?
+```bash
+$ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | grep -w "region"| grep 'ssa'| wc -l && \ 
+> zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | grep -w "region"| grep 'ssa'| head -3
+29
+1	Ssal_v3.1	region	1	174498729	.	.	.	ID=region:1;Alias=HG993260.1,ssa01
+10	Ssal_v3.1	region	1	125877811	.	.	.	ID=region:10;Alias=HG993269.1,ssa10
+11	Ssal_v3.1	region	1	111868677	.	.	.	ID=region:11;Alias=HG993270.2,ssa11
+```
+
 3. How many features does the file contain?
+```bash
+$ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 | head                          
+region
+biological_region
+biological_region
+biological_region
+biological_region
+biological_region
+biological_region
+biological_region
+gene
+mRNA
+
+$ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 | wc -l
+4716412
+```
 4. How many genes are listed for this organism?
+```bash
+$ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 | sort-uniq-count-rank | grep -w 'gene'
+47205	gene
+```
 5. Is there a feature type that you may have not heard about before? What is the feature and how is it defined? (If there is no such feature, pick a common feature.)
 6. What are the top-ten most annotated feature types (column 3) across the genome?
 7. Having analyzed this GFF file, does it seem like a complete and well-annotated organism?
