@@ -252,5 +252,27 @@ As such, here's the definition of each:
 </table>
 
 6. What are the top-ten most annotated feature types (column 3) across the genome?
+<br>
+The top-ten are the following:<br>
+<table border="1" style="border-collapse: collapse; width: 300px; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 8px; text-align: left;">Count</th>
+      <th style="padding: 8px; text-align: left;">Feature Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 8px;">2,107,386</td><td style="padding: 8px;">exon</td></tr>
+    <tr><td style="padding: 8px;">1,853,224</td><td style="padding: 8px;">CDS</td></tr>
+    <tr><td style="padding: 8px;">197,091</td><td style="padding: 8px;">five_prime_UTR</td></tr>
+    <tr><td style="padding: 8px;">175,342</td><td style="padding: 8px;">three_prime_UTR</td></tr>
+    <tr><td style="padding: 8px;">146,010</td><td style="padding: 8px;">mRNA</td></tr>
+    <tr><td style="padding: 8px;">125,760</td><td style="padding: 8px;">biological_region</td></tr>
+    <tr><td style="padding: 8px;">47,205</td><td style="padding: 8px;">gene</td></tr>
+    <tr><td style="padding: 8px;">28,710</td><td style="padding: 8px;">lnc_RNA</td></tr>
+    <tr><td style="padding: 8px;">21,576</td><td style="padding: 8px;">ncRNA_gene</td></tr>
+    <tr><td style="padding: 8px;">5,197</td><td style="padding: 8px;">rRNA</td></tr>
+  </tbody>
+</table>
 7. Having analyzed this GFF file, does it seem like a complete and well-annotated organism?
 8. Share any other insights you might note.
