@@ -274,7 +274,7 @@ The top-ten are the following:<br>
   </tbody>
 </table>
 
-7. Having analyzed this GFF file, does it seem like a complete and well-annotated organism?
+7. Having analyzed this GFF file, does it seem like a complete and well-annotated organism?\
 Full completion is not expected to be achieved as no data is ever 100% complete. However, based from different de facto criteria below:
 <table border="1" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
   <thead>
