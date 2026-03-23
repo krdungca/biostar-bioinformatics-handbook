@@ -25,7 +25,6 @@ $ wget https://ftp.ensembl.org/pub/current_gff3/salmo_salar/Salmo_salar.Ssal_v3.
 
 </div>
 
-2. Tell us a bit about the organism.
 3. How many sequence regions (chromosomes) does the file contain? Does that match with the expectation for this organism?
 4. How many features does the file contain?
 5. How many genes are listed for this organism?
