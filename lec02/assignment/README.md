@@ -280,7 +280,7 @@ Full completion is not expected to be achieved as no data is ever 100% complete.
   <thead>
     <tr style="background-color: #f2f2f2;">
       <th style="padding: 10px; text-align: left;">Quality Criterion</th>
-      <th style="padding: 10px; text-align: left;">Findings in Your Data</th>
+      <th style="padding: 10px; text-align: left;">Findings in Data</th>
     </tr>
   </thead>
   <tbody>
