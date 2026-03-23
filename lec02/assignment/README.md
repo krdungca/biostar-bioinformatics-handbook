@@ -252,7 +252,6 @@ As such, here's the definition of each:
 </table>
 
 6. What are the top-ten most annotated feature types (column 3) across the genome?
-<br>
 The top-ten are the following:<br>
 <table border="1" style="border-collapse: collapse; width: 300px; font-family: Arial, sans-serif;">
   <thead>
@@ -274,5 +273,6 @@ The top-ten are the following:<br>
     <tr><td style="padding: 8px;">5,197</td><td style="padding: 8px;">rRNA</td></tr>
   </tbody>
 </table>
+
 7. Having analyzed this GFF file, does it seem like a complete and well-annotated organism?
 8. Share any other insights you might note.
