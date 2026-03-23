@@ -196,15 +196,6 @@ $ features=$(zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 |
 5	J_gene_segment
 2	Y_RNA
 
-$ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 | sort-uniq-count-rank | head -7
-2107386	exon
-1853224	CDS
-197091	five_prime_UTR
-175342	three_prime_UTR
-146010	mRNA
-125760	biological_region
-47205	gene
-
 $ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 | sort-uniq-count-rank | grep -w 'gene'
 47205	gene
 ```
