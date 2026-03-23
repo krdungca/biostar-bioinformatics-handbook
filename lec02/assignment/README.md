@@ -69,6 +69,10 @@ $ wget https://ftp.ensembl.org/pub/current_gff3/salmo_salar/Salmo_salar.Ssal_v3.
   </tbody>
 </table>
 
+<br>
+
+https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_931346935.2/
+
 <table style="width: 100%; border-collapse: collapse; font-family: sans-serif; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #f2f2f2; text-align: left;">
