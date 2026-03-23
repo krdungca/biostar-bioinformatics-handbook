@@ -304,4 +304,5 @@ Full completion is not expected to be achieved as no data is ever 100% complete.
 </table>
 
 8. Share any other insights you might note.
+<br>
 While I may have not yet encountered certain terms, the whole process of searching, verifying data accuracy, executing code (and resolving errors/mishaps), and then actually getting results, help a lot in my learnings! 
