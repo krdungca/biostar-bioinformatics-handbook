@@ -141,7 +141,7 @@ https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_931346935.2/
 <br>
 
 2. How many sequence regions (chromosomes) does the file contain? Does that match with the expectation for this organism?
-There are 29 sequence regions. Yes, it matches the 29 haploid chromosomes as it is published in NCBI Genome assembly Ssal_ALTA.
+<br>There are 29 sequence regions. Yes, it matches the 29 haploid chromosomes as it is published in NCBI Genome assembly Ssal_ALTA.
 ```bash
 $ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | grep -w "region"| grep 'ssa'| wc -l && \ 
 > zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | grep -w "region"| grep 'ssa'| head -3
@@ -152,7 +152,7 @@ $ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | grep -w "region"| gre
 ```
 
 3. How many features does the file contain?
-It contains 4,716,412 features.
+<br>It contains 4,716,412 features.
 ```bash
 $ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 | head                          
 region
@@ -170,8 +170,17 @@ $ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 | wc -l
 4716412
 ```
 4. How many genes are listed for this organism?
-It contains 47,205 genes.
+<br>It contains 47,205 genes.
 ```bash
+$ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 | sort-uniq-count-rank | head -7
+2107386	exon
+1853224	CDS
+197091	five_prime_UTR
+175342	three_prime_UTR
+146010	mRNA
+125760	biological_region
+47205	gene
+
 $ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 | sort-uniq-count-rank | grep -w 'gene'
 47205	gene
 ```
