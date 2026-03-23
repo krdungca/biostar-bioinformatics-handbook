@@ -68,6 +68,70 @@ $ wget https://ftp.ensembl.org/pub/current_gff3/salmo_salar/Salmo_salar.Ssal_v3.
     </tr>
   </tbody>
 </table>
+
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #f2f2f2; text-align: left;">
+      <th style="padding: 12px; border-bottom: 2px solid #ddd;">Metric</th>
+      <th style="padding: 12px; border-bottom: 2px solid #ddd;">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">Genome Size</td>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">2.6 Gb</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">Total Ungapped Length</td>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">2.6 Gb</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">Gaps Between Scaffolds</td>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">447</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">Number of Chromosomes</td>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">29</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">Number of Scaffolds</td>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">4,042</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">Scaffold N50</td>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">19.2 Mb</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">Scaffold L50</td>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">39</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">Number of Contigs</td>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">4,067</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">Contig N50</td>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">19.2 Mb</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">Contig L50</td>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">39</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">GC Percent</td>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">43.5%</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">Genome Coverage</td>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">27x</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">Assembly Level</td>
+      <td style="padding: 10px; border-bottom: 1px solid #ddd;">Chromosome</td>
+    </tr>
+  </tbody>
+</table>
+
 </div>
 
 <br>
