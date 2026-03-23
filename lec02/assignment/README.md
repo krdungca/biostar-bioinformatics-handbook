@@ -172,6 +172,30 @@ $ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 | wc -l
 4. How many genes are listed for this organism?
 <br>It contains 47,205 genes.
 ```bash
+$ features=$(zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 | sort-uniq-count-rank); echo "$features"
+2107386	exon
+1853224	CDS
+197091	five_prime_UTR
+175342	three_prime_UTR
+146010	mRNA
+125760	biological_region
+47205	gene
+28710	lnc_RNA
+21576	ncRNA_gene
+5197	rRNA
+4011	region
+2059	snRNA
+901	snoRNA
+608	pseudogene
+608	pseudogenic_transcript
+480	miRNA
+123	V_gene_segment
+56	transcript
+34	D_gene_segment
+24	scRNA
+5	J_gene_segment
+2	Y_RNA
+
 $ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 | sort-uniq-count-rank | head -7
 2107386	exon
 1853224	CDS
@@ -185,6 +209,57 @@ $ zcat Salmo_salar.Ssal_v3.1.115.gff3.1.gz | grep -v "#" | cut -f 3 | sort-uniq-
 47205	gene
 ```
 5. Is there a feature type that you may have not heard about before? What is the feature and how is it defined? (If there is no such feature, pick a common feature.)
+<br>
+lnc_RNA, ncRNA_gene, snRNA, snoRNA, pseudogene, pseudogenic_transcript, V_gene_segment, D_gene_segment, J_gene_segment, transcript, Y_RNA
+
+As such, here's the definition of each:
+<table border="1" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px; text-align: left;">Feature Type</th>
+      <th style="padding: 10px; text-align: left;">Concise Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px;"><strong>ncRNA_gene</strong></td>
+      <td>A gene that functions as RNA directly and is <strong>not</strong> translated into a protein.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"><strong>lnc_RNA</strong></td>
+      <td>"Long" non-coding RNA (>200 nt) that regulates how other genes are turned on or off.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"><strong>snRNA</strong></td>
+      <td>"Small Nuclear" RNA; the machinery used to <strong>splice</strong> introns out of mRNA.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"><strong>snoRNA</strong></td>
+      <td>"Small Nucleolar" RNA; guides that help chemically modify other RNAs (like rRNA).</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"><strong>Y_RNA</strong></td>
+      <td>Small RNAs involved in DNA replication and maintaining RNA stability.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"><strong>pseudogene</strong></td>
+      <td>A "genomic fossil"; a sequence that looks like a gene but is broken by mutations.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"><strong>pseudogenic_transcript</strong></td>
+      <td>An RNA molecule produced by a pseudogene (usually non-functional).</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"><strong>V, D, J_gene_segment</strong></td>
+      <td>"Lego-like" DNA fragments used by the immune system to build custom <strong>antibodies</strong>.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"><strong>transcript</strong></td>
+      <td>A general term for any RNA molecule produced by a gene before it is specifically classified.</td>
+    </tr>
+  </tbody>
+</table>
+
 6. What are the top-ten most annotated feature types (column 3) across the genome?
 7. Having analyzed this GFF file, does it seem like a complete and well-annotated organism?
 8. Share any other insights you might note.
