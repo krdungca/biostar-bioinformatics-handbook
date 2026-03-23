@@ -275,4 +275,33 @@ The top-ten are the following:<br>
 </table>
 
 7. Having analyzed this GFF file, does it seem like a complete and well-annotated organism?
+Full completion is not expected to be achieved as no data is ever 100% complete. However, based from different de facto criteria below:
+<table border="1" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px; text-align: left;">Quality Criterion</th>
+      <th style="padding: 10px; text-align: left;">Findings in Your Data</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px;"><strong>Gene-to-mRNA-to-Exon Ratio</strong></td>
+      <td>~14 exons per transcript; ~3 transcripts per gene (Indicates high-quality alternative splicing annotation).</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"><strong>Fundamental Features</strong></td>
+      <td>Includes diverse ncRNAs and immune loci (V/D/J segments), showing a comprehensive assembly.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"><strong>Protein-Coding Integrity</strong></td>
+      <td>Presence of CDS, 5' UTR, and 3' UTR confirms a "well-annotated" rather than "basic" assembly.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"><strong>Pseudogene Identification</strong></td>
+      <td>~600 pseudogenes identified, showing diligent filtering of genomic noise.</td>
+    </tr>
+  </tbody>
+</table>
+
 8. Share any other insights you might note.
+While I may have not yet encountered certain terms, the whole process of searching, verifying data accuracy, executing code (and resolving errors/mishaps), and then actually getting results, help a lot in my learnings! 
