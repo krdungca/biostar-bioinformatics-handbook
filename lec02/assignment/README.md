@@ -23,9 +23,9 @@ $ wget https://ftp.ensembl.org/pub/current_gff3/salmo_salar/Salmo_salar.Ssal_v3.
   While it remains a vital source of omega-3 fatty acids, wild populations are currently 
   listed as Near Threatened due to overfishing and habitat loss.
 
-</div>
+</div> \
 
-***
+
 
 2. How many sequence regions (chromosomes) does the file contain? Does that match with the expectation for this organism?
 3. How many features does the file contain?
